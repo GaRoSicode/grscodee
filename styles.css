@@ -1,0 +1,74 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image: url('https://github.com/GaRoSicode/grscode/blob/main/Abstract-windmill-black-background_1920x1080.jpg?raw=true');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    min-height: 100vh;
+    position: relative;
+    padding-top: 100px; /* Altura da logo + 50px de margem superior */
+}
+
+
+.logo {
+    position: absolute;
+    top: 100px; /* Ajuste conforme necessário */
+    left: 20px; /* Ajuste conforme necessário */
+}
+
+
+
+.container-botoes {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px; /* Espaço do topo */
+}
+
+.botao1, .botao2 {
+    background-image: linear-gradient(135deg, #008aff, #86d472);
+    border-radius: 6px;
+    box-sizing: border-box;
+    color: #ffffff;
+    display: inline-block;
+    height: 50px;
+    font-size: 1.4em;
+    font-weight: 600;
+    padding: 4px;
+    margin: 0 20px; /* Espaço entre os botões */
+    text-decoration: none;
+    width: 7em;
+    text-align: center; /* Centralizar texto */
+    line-height: 50px; /* Centralizar verticalmente */
+    transition: color 0.3s, background 0.3s;
+}
+
+.botao1:hover, .botao2:hover {
+    color: #fff;
+}
+
+.botao1 .botao1span, .botao2 .botao2span {
+    background: #0e0e10;
+    border-radius: 6px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+    transition: background 0.5s ease;
+}
+
+.botao1:hover .botao1span, .botao2:hover .botao2span {
+    background: transparent;
+}
+
+footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    background-image: linear-gradient(135deg, #000000, #2b2929b4, #d6ebd6e1);
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
